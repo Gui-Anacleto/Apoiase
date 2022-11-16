@@ -4,7 +4,8 @@ Teste de Desenvolvimento Junior/Pleno
 ## Passos para dir /backend:
     
     npm init
-    npm npm i nodemon
+    npm i nodemon
+    npm i mongoose
 
 ## Run /backend:
 
