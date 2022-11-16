@@ -61,8 +61,11 @@ async function handleSubmit(e){
 }
 
 function valida(){
-  if(data === d){
+  
+  if((data === d) || (data < d)){
+    limpa()
     return alert("Não foi possível agendar sua postagem - Por favor, selecione um horário pelo menos 5 minutos no futuro.")
+    
   }else{
     return alert(`Tudo pronto! - Sua postagem está agendada para ${dateNowStr}`)
   }
